@@ -1,0 +1,9 @@
+*.json
+node_modules/
+fuentes/
+*.log
+*.map
+*.ai
+*.psd
+*.vscode
+passwords.txt
