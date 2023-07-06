@@ -1,4 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+  background-color: #0e0e15;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  background-color: #0e0e15;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9098039216);
+  cursor: pointer;
+}
+a:hover {
+  color: #ff0000;
+}
+
+h1, h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+
+.bg-oscuro {
+  background-color: #0e0e15;
+}
+
+.bg-claro {
+  background-color: rgba(255, 255, 255, 0.9098039216);
+}
+
+.claro {
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+
+.padding {
+  padding: 2rem;
+}
+
+.boton {
+  background-color: var(--oscuro);
+  border: solid 1px var(--claro);
+  color: var(--claro);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+}
+.boton:hover {
+  box-shadow: rgba(255, 0, 0, 0.5) 0px 5px 15px;
+  color: var(--red);
+  border: solid 1px var(--red);
+}
+
+.titulo-pag {
+  font-size: 4rem;
+  padding: 3rem;
+}
+
+.bio-titulo {
+  font-size: 3rem;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=main.css.map */

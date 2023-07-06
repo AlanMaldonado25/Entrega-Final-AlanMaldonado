@@ -1,0 +1,50 @@
+@import "_vars";
+
+@mixin grid-reg($valor1,$valor2){
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax($valor1,$valor2));
+    text-align: center;
+    gap: 3rem;
+}
+@mixin flex($jc,$ai,$wrap){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $wrap;
+}
+@mixin grid($v1,$v2,$row){
+    display: grid;
+    grid-template-columns: repeat($v1,$v2);
+    grid-template-rows: $row;
+}
+
+@mixin titulos($fs,$color,$padding,$weight){
+    font-size: $fs;
+    color: $color;
+    text-transform: uppercase;
+    font-weight: $weight;
+}
+
+@mixin xl{
+    @media (width < 980px){
+        @content;
+    }
+}
+
+@mixin large{
+    @media (width < 820px){
+        @content;
+    }
+}
+
+@mixin medium{
+    @media (width < 600px){
+        @content;
+    }
+}
+
+@mixin small{
+    @media (width < 480px){
+        @content;
+    }
+}

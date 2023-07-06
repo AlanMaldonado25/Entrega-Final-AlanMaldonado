@@ -1,0 +1,72 @@
+
+@import "_vars";
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+    background-color: $oscuro;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $fuenteGeneral;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: $oscuro;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: $claro;
+    cursor: pointer;
+    &:hover{
+        color: $red;
+    }
+}
+h1,h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color:$claro;
+}
+li {
+    list-style: none;
+}
+p{
+    font-size: 2rem;
+    color: $claro;
+}
+.bg-oscuro{
+    background-color: $oscuro;
+}
+.bg-claro{
+    background-color: $claro;
+}
+.claro{
+    color: $claro;
+}
+.padding{
+    padding: 2rem;
+}
+.boton{
+    background-color: var(--oscuro);
+    border:solid 1px var(--claro);
+    color: var(--claro);
+    padding: .5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    &:hover{
+        box-shadow: rgba(255, 0, 0, 0.5) 0px 5px 15px;
+        color: var(--red);
+        border:solid 1px var(--red);
+    }
+}
+.titulo-pag{
+    font-size: 4rem;
+    padding: 3rem;
+}

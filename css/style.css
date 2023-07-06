@@ -9,9 +9,9 @@
     --gris:#14141d;
     --fuenteSecundaria:'Roboto Condensed', sans-serif;
 }
-html {
+/* html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1 rem = 10px */
+    font-size: 62.5%;
     background-color: var(--oscuro);
 }
 *, *:before, *:after {
@@ -58,7 +58,7 @@ p{
 }
 .padding{
     padding: 2rem;
-}
+} */
 
 .center{
     align-items:center;
@@ -182,10 +182,10 @@ p{
     width: 100%;
 }
 
-.titulo-pag{
+/* .titulo-pag{
     font-size: 4rem;
     padding: 3rem;
-}
+} */
 .card-title{
     font-size: 2rem;
     color: var(--claro);
@@ -195,7 +195,7 @@ p{
 .card-text{
     font-size: 1.5rem;
 }
-.boton{
+/* .boton{
     background-color: var(--oscuro);
     border:solid 1px var(--claro);
     color: var(--claro);
@@ -209,7 +209,7 @@ p{
     box-shadow: rgba(255, 0, 0, 0.5) 0px 5px 15px;
     color: var(--red);
     border:solid 1px var(--red);
-}
+} */
 .navbar .navlink:hover{
     color: var(--red);
 }
