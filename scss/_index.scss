@@ -1,0 +1,61 @@
+@import "_vars";
+@import "_mixins";
+
+
+.prox-premio{
+    padding: 3rem;
+    h2{
+        @include titulos(3rem,$claro,1rem,600);
+    }
+}
+.ult-premio{
+    h2{
+        @include titulos(3rem,$claro,1rem,600);
+    }
+    .img-u-premio{
+        width: 75%;
+    }
+    .tabla{
+        margin: 3rem 0;
+        width: 75%;
+        table{
+            width: 100%;
+            color: $claro;
+            font-size: 2rem;
+            tr{
+                text-align: center;
+                background-color: $gris;
+                border: 1px solid $red;
+                td{
+                    border: 1px solid $red;
+                }
+            }
+        }
+    }
+}
+.video-resumen {
+    iframe{
+    width:80rem; 
+    height:45.5rem;
+    padding-top: 1.5rem;
+    }
+}
+.figure-caption{
+    font-size: 2rem;
+    color: $claro;
+}
+
+.streaming{
+    padding: 5rem;
+    h2{
+        @include titulos(3rem,$claro,1rem,600);
+    }
+}
+
+
+.redes{
+    @include flex(space-evenly,center,wrap-reverse);
+    .star-p{
+        height: 15rem;
+    }
+}

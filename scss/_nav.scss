@@ -1,1 +1,46 @@
 @import "_vars";
+@import "_mixins";
+
+.navbar{
+    background-color: $gris;
+    color: $claro;
+    text-transform: uppercase;
+    .nav-link{
+        font-size: 2rem;
+        color: $claro;
+        &:hover{
+            color: $red;
+        }
+        &:focus{
+            color: $red;
+        }
+    }
+    .navbar-collapse{
+        justify-content: end;
+    }
+    .navbar-brand{
+        img{
+            height: 6rem;
+        }
+    }
+    .container-fluid{
+        button{
+            color: $red;
+        }
+    }
+}
+
+footer{
+    .iconos-redes{
+        @include flex(space-between,center,nowrap);
+        svg{
+            color: $claro;
+            height: 3.5rem;
+            margin-right: 2rem;
+            &:hover{
+                color: $red;
+                transition: .5s;
+            }
+        }
+    }
+}

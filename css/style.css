@@ -60,13 +60,13 @@ p{
     padding: 2rem;
 } */
 
-.center{
+/* .center{
     align-items:center;
     text-align: center;
     justify-content: center;
     justify-items: center;
     margin: 0 auto;
-}
+} */
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
@@ -79,7 +79,7 @@ p{
     text-align: center;
      gap: 3rem;
 }
-.navbar{
+/* .navbar{
     background-color: var(--gris);
     color: var(--claro);
     text-transform: uppercase;
@@ -105,26 +105,18 @@ p{
 }
 .container-fluid button{
     color: var(--red);
-}
-.container-fluid button:hover{
-    color: var(--red);
-}
-.table{
+} */
+
+/* .table{
     width:100%;
     color: var(--claro);
-}
-.figure-caption{
+} */
+/* .figure-caption{
     font-size: 2rem;
     color: var(--claro);
-}
-.streaming{
-    padding: 5rem;
+} */
 
-}
-.streaming h2{
-    font-weight: 600;
-}
-.star-p{
+/* .star-p{
     height: 15rem;
 }
 .redes{
@@ -132,10 +124,10 @@ p{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap-reverse;
-}
-.prox-premio{
+} */
+/* .prox-premio{
     padding: 3rem;
-}
+} */
 .iconos-redes svg{
     color: var(--claro);
     height: 3.5rem;
@@ -146,9 +138,9 @@ p{
     justify-content: space-between;
     display: inline-block;
 }
-.tabla{
+/* .tabla{
     width: 75%;
-}
+} */
 .card-galery{
     background-color: var(--oscuro);
     padding: 3rem;
@@ -210,9 +202,7 @@ p{
     color: var(--red);
     border:solid 1px var(--red);
 } */
-.navbar .navlink:hover{
-    color: var(--red);
-}
+
 .form{
     width: 80rem;
     justify-content: center;
@@ -243,10 +233,10 @@ p{
     height:45.5rem;
     padding-top: 1.5rem;
 }
-.titulo-pag{
+/* .titulo-pag{
     color: var(--claro);
     background-color: var(--oscuro);
-}
+} */
 .img-header img{
     width: 100%;
     height: 50rem;
@@ -327,12 +317,7 @@ p{
     object-fit:contain;
     width: 100%;
 }
-.tabla{
-    width: 75%;
-}
-.img-u-premio{
-    width: 75%;
-}
+
 .aside-chico{
     display: flex;
     flex-direction: column;
