@@ -53,6 +53,7 @@
             background: linear-gradient(225deg, #15151f, #12121a);
             box-shadow: -15px 15px 30px #0e0e14,
                         15px -15px 30px #1a1a26;
+            display: block;
             &:hover{
                 transition: 0.5s;
                 color: $claro;
@@ -90,8 +91,9 @@
             }
         }
         .img-escuderia{
+            height: 20rem;
             @include medium{
-                height: 6rem;
+                height: 12rem;
             }
         }
     }

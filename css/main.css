@@ -83,6 +83,7 @@ p {
   color: rgba(255, 255, 255, 0.9098039216);
   text-transform: uppercase;
   font-weight: 600;
+  margin-bottom: 3rem;
 }
 @media (width < 600px) {
   .titulo-pag {
@@ -448,6 +449,7 @@ footer .iconos-redes svg:hover {
   border-radius: 10px;
   background: linear-gradient(225deg, #15151f, #12121a);
   box-shadow: -15px 15px 30px #0e0e14, 15px -15px 30px #1a1a26;
+  display: block;
 }
 .bio .bio-enlace .a-mas:hover {
   transition: 0.5s;
@@ -491,9 +493,12 @@ footer .iconos-redes svg:hover {
     height: 40rem;
   }
 }
+.bio .aside .img-escuderia {
+  height: 20rem;
+}
 @media (width < 600px) {
   .bio .aside .img-escuderia {
-    height: 6rem;
+    height: 12rem;
   }
 }
 .bio .bio-titulo {
