@@ -62,9 +62,9 @@ p {
 }
 
 .boton {
-  background-color: var(--oscuro);
-  border: solid 1px var(--claro);
-  color: var(--claro);
+  background-color: #0e0e15;
+  border: solid 1px rgba(255, 255, 255, 0.9098039216);
+  color: rgba(255, 255, 255, 0.9098039216);
   padding: 0.5rem;
   font-size: 1.5rem;
   text-decoration: none;
@@ -73,8 +73,9 @@ p {
 }
 .boton:hover {
   box-shadow: rgba(255, 0, 0, 0.5) 0px 5px 15px;
-  color: var(--red);
-  border: solid 1px var(--red);
+  color: #ff0000;
+  border: solid 1px #ff0000;
+  transition: 0.5s;
 }
 
 .titulo-pag {
@@ -96,6 +97,20 @@ p {
   justify-content: center;
   justify-items: center;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  text-align: center;
+  gap: 3rem;
+}
+
+.grid-pistas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  text-align: center;
+  gap: 3rem;
 }
 
 .navbar {
@@ -137,6 +152,12 @@ footer .iconos-redes svg {
 footer .iconos-redes svg:hover {
   color: #ff0000;
   transition: 0.5s;
+}
+@media (width < 600px) {
+  footer .iconos-redes svg {
+    height: 2rem;
+    margin-right: 1rem;
+  }
 }
 
 .prox-premio {
@@ -196,6 +217,11 @@ footer .iconos-redes svg:hover {
   text-transform: uppercase;
   font-weight: 600;
 }
+@media (width < 600px) {
+  .streaming h2 {
+    font-size: 2rem;
+  }
+}
 
 .redes {
   display: flex;
@@ -205,6 +231,229 @@ footer .iconos-redes svg:hover {
 }
 .redes .star-p {
   height: 15rem;
+}
+@media (width < 820px) {
+  .redes .star-p {
+    height: 10rem;
+  }
+}
+@media (width < 820px) {
+  .redes .f1-tv {
+    height: 4rem;
+    width: 24rem;
+  }
+}
+
+.card-galery {
+  background-color: #0e0e15;
+  padding: 3rem;
+}
+.card-galery h1 {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.9098039216);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-escuderia {
+  border-radius: 1rem;
+  background-color: #0e0e15;
+  border: 1px solid #ff0000;
+  margin: 0 auto;
+  width: 25rem;
+  height: 25rem;
+}
+.card-escuderia .img-escuderia {
+  height: 13.5rem;
+  object-fit: contain;
+  width: 100%;
+}
+
+.card-body {
+  padding: 1rem;
+  background-color: #21212a;
+  color: rgba(255, 255, 255, 0.9098039216);
+  align-items: end;
+  justify-content: end;
+}
+.card-body .card-title {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.9098039216);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.card-body .card-text {
+  font-size: 1.5rem;
+}
+
+.card-img-top {
+  background-color: #0e0e15;
+  padding: 1rem;
+}
+
+.form {
+  width: 80rem;
+  justify-content: center;
+  margin: 3rem auto;
+  border: solid 1px #ff0000;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(255, 0, 0, 0.5) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  background-color: #21212a;
+}
+.form h2 {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.9098039216);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.form .form-label {
+  color: rgba(255, 255, 255, 0.9098039216);
+  font-size: 2rem;
+}
+.form .form-control {
+  font-size: 1.5rem;
+  background-color: #21212a;
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+.form .form-control:focus {
+  background-color: #21212a;
+  color: rgba(255, 255, 255, 0.9098039216);
+}
+.form .botonera {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.form .botonera .enviar {
+  margin: 2rem;
+}
+@media (width < 820px) {
+  .form {
+    width: 55rem;
+  }
+}
+@media (width < 600px) {
+  .form {
+    width: 30rem;
+  }
+}
+
+.img-header img {
+  width: 100%;
+  height: 50rem;
+  object-fit: contain;
+}
+@media (width < 980px) {
+  .img-header img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.img-header .desc-header {
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+.img-pista {
+  height: 60rem;
+  object-fit: contain;
+  width: 100%;
+}
+@media (width < 820px) {
+  .img-pista {
+    height: 35rem;
+  }
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: ". texto texto" "aside texto texto" ". texto texto" "enlace enlace enlace";
+}
+.bio .bio-enlace {
+  grid-area: enlace;
+  font-size: 3rem;
+  padding: 4rem;
+}
+.bio .bio-enlace .a-mas {
+  color: #ff0000;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  padding: 2rem;
+  border-radius: 10px;
+  background: linear-gradient(225deg, #15151f, #12121a);
+  box-shadow: -15px 15px 30px #0e0e14, 15px -15px 30px #1a1a26;
+}
+.bio .bio-enlace .a-mas:hover {
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.9098039216);
+  box-shadow: -15px 5px 30px #ff0000, 10px -5px 30px #a90000;
+}
+@media (width < 820px) {
+  .bio .bio-enlace .a-mas {
+    font-size: 2rem;
+  }
+}
+.bio .aside {
+  grid-area: aside;
+  border-radius: 1rem;
+  background: #0e0e15;
+  box-shadow: -15px 15px 30px #0e0e14, 15px -15px 30px #1a1a26;
+  margin: 2rem;
+  padding: 2rem;
+}
+.bio .aside table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 1.4rem;
+  width: 100%;
+}
+.bio .bio-titulo {
+  font-size: 3rem;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.bio .bio-subtitulo {
+  font-size: 1.8rem;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.bio .bio-texto {
+  grid-area: texto;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+.bio .aside-chico {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: #0e0e15;
+  box-shadow: -1.5rem 1.5rem 3rem #0e0e14, 15px -15px 30px #1a1a26;
+  padding: 2rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+.bio .aside-chico table {
+  width: fit-content;
+  font-size: 2rem;
+}
+@media (width < 980px) {
+  .bio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "aside" "texto" "enlace";
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

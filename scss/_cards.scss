@@ -1,0 +1,42 @@
+@import "_vars";
+@import "_mixins";
+
+.card-galery{
+    background-color: $oscuro;
+    padding: 3rem;
+    h1{
+        @include titulos(4rem,$claro,3rem,700);
+    }
+}
+.card-escuderia{
+    border-radius: 1rem;
+    background-color: $oscuro;
+    border: 1px solid $red;
+    margin: 0 auto;
+    width: 25rem;
+    height: 25rem;
+    .img-escuderia{
+        height: 13.5rem;
+        object-fit: contain;
+        width: 100%;
+    }
+}
+.card-body{
+    padding: 1rem;
+    background-color: $gris;
+    color: $claro;
+    align-items: end;
+    justify-content: end;
+    .card-title{
+        @include titulos(2rem,$claro,2rem,500);
+        margin-bottom: 1.5rem;
+    }
+    .card-text{
+        font-size: 1.5rem;
+    }
+    
+}
+.card-img-top{
+    background-color: $oscuro;
+    padding: 1rem;
+}

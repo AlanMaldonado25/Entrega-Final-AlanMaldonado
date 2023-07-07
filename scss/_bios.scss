@@ -1,0 +1,108 @@
+@import "_vars";
+@import "_mixins";
+
+.img-header{
+    img{
+        width: 100%;
+        height: 50rem;
+        object-fit: contain;
+        @include xl{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .desc-header{
+        font-size: 1.8rem;
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+}
+.img-pista{
+    height: 60rem;
+    object-fit:contain;
+    width: 100%;
+    @include large{
+        height: 35rem;
+    }
+}
+.bio{
+    @include grid(3,1fr,auto);
+    grid-template-areas: 
+    ". texto texto"
+    "aside texto texto"
+    ". texto texto"
+    "enlace enlace enlace";
+    .bio-enlace{
+        grid-area: enlace;
+        font-size: 3rem;
+        padding: 4rem;
+        .a-mas{
+            color: $red;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            padding: 2rem;
+            border-radius: 10px;
+            background: linear-gradient(225deg, #15151f, #12121a);
+            box-shadow: -15px 15px 30px #0e0e14,
+                        15px -15px 30px #1a1a26;
+            &:hover{
+                transition: 0.5s;
+                color: $claro;
+                box-shadow: -15px 5px 30px #ff0000,
+                            10px -5px 30px #a90000;
+            }
+            @include large{
+                font-size: 2rem;
+            }
+        }
+    }
+    .aside{
+        grid-area: aside;
+        border-radius: 1rem;
+        background: $oscuro;
+        box-shadow: -15px 15px 30px #0e0e14,
+                    15px -15px 30px #1a1a26;
+        margin: 2rem;      
+        padding: 2rem;   
+        table{
+            @include flex(center,center,nowrap);
+            font-size: 1.4rem;
+            width: 100%;
+        }
+    }
+    .bio-titulo{
+        @include titulos(3rem,$red,2rem,700);
+    }
+    .bio-subtitulo{
+        @include titulos(1.8rem,$red,2rem,400);
+    }
+    .bio-texto{
+        grid-area: texto;
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    .aside-chico{
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        background: $oscuro;
+        box-shadow:  -1.5rem 1.5rem 3rem #0e0e14,
+                15px -15px 30px #1a1a26;   
+        padding: 2rem;   
+        margin: 0 auto;
+        width: fit-content;
+        table{
+            width: fit-content;
+            font-size: 2rem;
+        }
+    }
+    @include xl{
+            @include grid(1,1fr,auto);
+            grid-template-areas: 
+            "aside"
+            "texto"
+            "enlace";
+        
+    }
+}

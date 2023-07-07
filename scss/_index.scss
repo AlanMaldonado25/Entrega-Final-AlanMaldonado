@@ -49,6 +49,9 @@
     padding: 5rem;
     h2{
         @include titulos(3rem,$claro,1rem,600);
+        @include medium{
+            font-size: 2rem;
+        }
     }
 }
 
@@ -57,5 +60,14 @@
     @include flex(space-evenly,center,wrap-reverse);
     .star-p{
         height: 15rem;
+        @include large{
+            height: 10rem;
+        }
+    }
+    .f1-tv{
+        @include large{
+            height: 4rem;
+            width: 24rem;
+        }
     }
 }
