@@ -74,6 +74,9 @@ p{
         padding: 1rem;
         font-size: 2.8rem;
     }
+    @include small{
+        font-size: 2.2rem;
+    }
 }
 .center{
     align-items:center;

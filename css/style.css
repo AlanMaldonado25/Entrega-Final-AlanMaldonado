@@ -379,33 +379,33 @@ p{
         height: 2rem;
         margin-right: 1rem;
     } */
-    .form{
+    /* .form{
         width: 30rem;
-    }
-    .video-resumen iframe{
+    } */
+    /* .video-resumen iframe{
         width:450px; 
         height:205px;
         padding-top: 1rem;
-    }
-    .img-3{
+    } */
+     .img-3{
         display: none;
     }
-    .img-header img{
+    /* .img-header img{
         height: 50rem;
         object-fit: cover;
-    }
-    .aside{
+    }  */
+    /* .aside{
     width: 30rem;
     margin: 0 auto;
     }
     
     .aside img{
         height: 40rem;
-    }
+    } */
     .texto p{
         font-size: 1.8rem;
     }
-    .bio-titulo{
+    /* .bio-titulo{
         font-size: 2rem;
         color: var(--red);
         margin: 1rem 0;
@@ -416,51 +416,51 @@ p{
         color: var(--red);
         text-transform: uppercase;
         margin: 1rem 0;
-    }
+    } */
     .foto-aside{
         display: none;
     }
-    .img-u-premio{
+    /* .img-u-premio{
         width: 30rem;
     }
     .aside .img-escuderia{
         height: 6rem;
-    }
-    .titulo-pag{
+    } */
+    /* .titulo-pag{
         padding: 1rem;
         font-size: 2.8rem;
-    }
+    } */
 }
 @media (width < 480px){
-    .table{
+    /* .table{
         width: 30rem;
-    }
-    .star-p{
+    } */
+    /* .star-p{
         height: 9rem;
         margin: 2rem;
-    }
-    .f1tv{
+    } */
+    /* .f1tv{
         height: 3rem;
         width: 22rem;
         margin: 2rem;
-    }
-    .video-resumen iframe{
+    } */
+    /* .video-resumen iframe{
         width:310px; 
         height:180px;
         padding-top: 1rem;
-    }
-    .titulo-pag{
+    } */
+    /* .titulo-pag{
         font-size: 2.2rem;
-    }
-    .bio-texto{
+    } */
+    /* .bio-texto{
         display: none;
-    }
-    .a-mas{
+    } */
+    /* .a-mas{
         font-size: 1.5rem;
-    }
-    .img-pista{
+    } */
+    /* .img-pista{
         height: 20rem;
-    }
+    } */
     .tabla{
         width: 100%;
     }

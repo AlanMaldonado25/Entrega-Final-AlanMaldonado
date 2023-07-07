@@ -14,6 +14,9 @@
     }
     .img-u-premio{
         width: 75%;
+        @include medium{
+            width: 30rem;
+        }
     }
     .tabla{
         margin: 3rem 0;
@@ -22,6 +25,7 @@
             width: 100%;
             color: $claro;
             font-size: 2rem;
+            
             tr{
                 text-align: center;
                 background-color: $gris;
@@ -30,6 +34,13 @@
                     border: 1px solid $red;
                 }
             }
+            @include small{
+                width: 30rem;
+                font-size: 1.6rem;
+            }
+        }
+        @include small{
+            width: 100%;
         }
     }
 }
@@ -38,6 +49,16 @@
     width:80rem; 
     height:45.5rem;
     padding-top: 1.5rem;
+    @include medium{
+        width:45rem; 
+        height:20.5rem;
+        padding-top: 1rem;
+    }
+    @include small{
+        width:31rem; 
+        height:18rem;
+        padding-top: 1rem;
+    }
     }
 }
 .figure-caption{
@@ -63,11 +84,20 @@
         @include large{
             height: 10rem;
         }
+        @include small{
+            height: 9rem;
+            margin: 2rem;
+        }
     }
-    .f1-tv{
+    .f1tv{
         @include large{
             height: 4rem;
             width: 24rem;
+        }
+        @include small{
+            height: 3rem;
+            width: 20rem;
+            margin: 2rem;
         }
     }
 }

@@ -90,6 +90,11 @@ p {
     font-size: 2.8rem;
   }
 }
+@media (width < 480px) {
+  .titulo-pag {
+    font-size: 2.2rem;
+  }
+}
 
 .center {
   align-items: center;
@@ -179,6 +184,11 @@ footer .iconos-redes svg:hover {
 .ult-premio .img-u-premio {
   width: 75%;
 }
+@media (width < 600px) {
+  .ult-premio .img-u-premio {
+    width: 30rem;
+  }
+}
 .ult-premio .tabla {
   margin: 3rem 0;
   width: 75%;
@@ -196,11 +206,36 @@ footer .iconos-redes svg:hover {
 .ult-premio .tabla table tr td {
   border: 1px solid #ff0000;
 }
+@media (width < 480px) {
+  .ult-premio .tabla table {
+    width: 30rem;
+    font-size: 1.6rem;
+  }
+}
+@media (width < 480px) {
+  .ult-premio .tabla {
+    width: 100%;
+  }
+}
 
 .video-resumen iframe {
   width: 80rem;
   height: 45.5rem;
   padding-top: 1.5rem;
+}
+@media (width < 600px) {
+  .video-resumen iframe {
+    width: 45rem;
+    height: 20.5rem;
+    padding-top: 1rem;
+  }
+}
+@media (width < 480px) {
+  .video-resumen iframe {
+    width: 31rem;
+    height: 18rem;
+    padding-top: 1rem;
+  }
 }
 
 .figure-caption {
@@ -237,10 +272,23 @@ footer .iconos-redes svg:hover {
     height: 10rem;
   }
 }
+@media (width < 480px) {
+  .redes .star-p {
+    height: 9rem;
+    margin: 2rem;
+  }
+}
 @media (width < 820px) {
-  .redes .f1-tv {
+  .redes .f1tv {
     height: 4rem;
     width: 24rem;
+  }
+}
+@media (width < 480px) {
+  .redes .f1tv {
+    height: 3rem;
+    width: 20rem;
+    margin: 2rem;
   }
 }
 
@@ -352,6 +400,12 @@ footer .iconos-redes svg:hover {
     object-fit: cover;
   }
 }
+@media (width < 600px) {
+  .img-header img {
+    height: 50rem;
+    object-fit: cover;
+  }
+}
 .img-header .desc-header {
   font-size: 1.8rem;
   padding: 1rem;
@@ -366,6 +420,11 @@ footer .iconos-redes svg:hover {
 @media (width < 820px) {
   .img-pista {
     height: 35rem;
+  }
+}
+@media (width < 480px) {
+  .img-pista {
+    height: 20rem;
   }
 }
 
@@ -400,6 +459,11 @@ footer .iconos-redes svg:hover {
     font-size: 2rem;
   }
 }
+@media (width < 480px) {
+  .bio .bio-enlace .a-mas {
+    font-size: 1.5rem;
+  }
+}
 .bio .aside {
   grid-area: aside;
   border-radius: 1rem;
@@ -416,17 +480,54 @@ footer .iconos-redes svg:hover {
   font-size: 1.4rem;
   width: 100%;
 }
+@media (width < 600px) {
+  .bio .aside {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}
+@media (width < 600px) {
+  .bio .aside img {
+    height: 40rem;
+  }
+}
+@media (width < 600px) {
+  .bio .aside .img-escuderia {
+    height: 6rem;
+  }
+}
 .bio .bio-titulo {
   font-size: 3rem;
   color: #ff0000;
   text-transform: uppercase;
   font-weight: 700;
 }
+@media (width < 600px) {
+  .bio .bio-titulo {
+    font-size: 2rem;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+@media (width < 480px) {
+  .bio .bio-titulo {
+    display: none;
+  }
+}
 .bio .bio-subtitulo {
   font-size: 1.8rem;
   color: #ff0000;
   text-transform: uppercase;
   font-weight: 400;
+}
+@media (width < 600px) {
+  .bio .bio-subtitulo {
+    font-size: 1.8rem;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
 }
 .bio .bio-texto {
   grid-area: texto;
