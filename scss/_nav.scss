@@ -6,6 +6,7 @@
     color: $claro;
     text-transform: uppercase;
     .nav-link{
+        font-family: $fuenteGeneral;
         font-size: 2rem;
         color: $claro;
         &:hover{

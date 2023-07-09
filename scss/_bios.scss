@@ -20,6 +20,11 @@
         padding: 1rem;
         margin-bottom: 4rem;
     }
+    .img-pilotos{
+        @include medium{
+            display: none;
+        }
+    }
 }
 .img-pista{
     height: 60rem;
@@ -33,6 +38,7 @@
     }
 }
 .bio{
+    font-family: $fuenteGeneral;
     @include grid(3,1fr,auto);
     grid-template-areas: 
     ". texto texto"
