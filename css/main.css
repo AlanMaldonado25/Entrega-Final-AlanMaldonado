@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap");
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1 rem = 10px */
@@ -13,7 +25,7 @@ html {
 }
 
 body {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "pistera";
   font-size: 1.6rem;
   line-height: 2;
   background-color: #0e0e15;
@@ -79,6 +91,7 @@ p {
 }
 
 .titulo-pag {
+  font-family: "pistera";
   font-size: 4rem;
   color: rgba(255, 255, 255, 0.9098039216);
   text-transform: uppercase;
@@ -119,6 +132,18 @@ p {
   gap: 3rem;
 }
 
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 .navbar {
   background-color: #21212a;
   color: rgba(255, 255, 255, 0.9098039216);
@@ -166,6 +191,14 @@ footer .iconos-redes svg:hover {
   }
 }
 
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 .prox-premio {
   padding: 3rem;
 }
@@ -293,6 +326,14 @@ footer .iconos-redes svg:hover {
   }
 }
 
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 .card-galery {
   background-color: #0e0e15;
   padding: 3rem;
@@ -331,6 +372,7 @@ footer .iconos-redes svg:hover {
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 1.5rem;
+  font-family: "pistera";
 }
 .card-body .card-text {
   font-size: 1.5rem;
@@ -341,6 +383,14 @@ footer .iconos-redes svg:hover {
   padding: 1rem;
 }
 
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 .form {
   width: 80rem;
   justify-content: center;
@@ -390,6 +440,14 @@ footer .iconos-redes svg:hover {
   }
 }
 
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
+@font-face {
+  font-family: "pistera";
+  src: url(../css/fonts/Formula1-Regular.otf);
+}
 .img-header img {
   width: 100%;
   height: 50rem;

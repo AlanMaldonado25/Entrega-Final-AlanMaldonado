@@ -30,6 +30,7 @@
     .card-title{
         @include titulos(2rem,$claro,2rem,500);
         margin-bottom: 1.5rem;
+        font-family: $fuenteGeneral;
     }
     .card-text{
         font-size: 1.5rem;

@@ -69,6 +69,7 @@ p{
     }
 }
 .titulo-pag{
+    font-family: $fuenteGeneral;
     @include titulos(4rem,$claro,5rem,600);
     margin-bottom: 3rem;
     @include medium{

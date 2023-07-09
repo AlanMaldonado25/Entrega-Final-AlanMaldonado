@@ -1,8 +1,12 @@
 
+@font-face {
+    font-family: 'pistera';
+    src: url(../css/fonts/Formula1-Regular.otf);
+}
 
-$fuenteGeneral:'Titillium Web', sans-serif;
+// $fuenteGeneral:'Titillium Web', sans-serif;
 $fuenteSecundaria:'Roboto Condensed', sans-serif;
-
+$fuenteGeneral:'pistera';
 // Colores
 $oscuro:#0e0e15;
 $claro:#ffffffe8;
