@@ -577,6 +577,14 @@ footer .iconos-redes svg:hover {
     height: 12rem;
   }
 }
+.bio .aside .img-alfa {
+  width: 50rem;
+}
+@media (width < 600px) {
+  .bio .aside .img-alfa {
+    width: 22rem;
+  }
+}
 .bio .aside .aside-title {
   font-size: 2rem;
   color: #ff0000;

@@ -109,6 +109,12 @@
                 height: 12rem;
             }
         }
+        .img-alfa{
+            width: 50rem;
+            @include medium{
+                width: 22rem
+            }
+        }
         .aside-title{
             @include titulos(2rem,$red,2rem,500);
         }
