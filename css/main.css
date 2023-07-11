@@ -561,6 +561,14 @@ footer .iconos-redes svg:hover {
     height: 40rem;
   }
 }
+.bio .aside .img-aside {
+  height: 40rem;
+}
+@media (width < 600px) {
+  .bio .aside .img-aside {
+    height: 20rem;
+  }
+}
 .bio .aside .img-escuderia {
   height: 20rem;
 }
@@ -612,6 +620,9 @@ footer .iconos-redes svg:hover {
   grid-area: texto;
   font-size: 1.8rem;
   padding: 1rem;
+}
+.bio .bio-texto li {
+  color: rgba(255, 255, 255, 0.9098039216);
 }
 .bio .aside-chico {
   display: flex;
