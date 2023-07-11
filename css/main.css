@@ -655,4 +655,11 @@ footer .iconos-redes svg:hover {
   }
 }
 
+.desc-header {
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  font-family: "pistera";
+}
+
 /*# sourceMappingURL=main.css.map */
