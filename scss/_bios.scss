@@ -19,6 +19,7 @@
         font-size: 1.8rem;
         padding: 1rem;
         margin-bottom: 4rem;
+        font-family: $fuenteGeneral;
     }
     .img-pilotos{
         @include medium{
@@ -101,6 +102,9 @@
             @include medium{
                 height: 12rem;
             }
+        }
+        .aside-title{
+            @include titulos(2rem,$red,2rem,500);
         }
     }
     .bio-titulo{

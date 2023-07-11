@@ -472,6 +472,7 @@ footer .iconos-redes svg:hover {
   font-size: 1.8rem;
   padding: 1rem;
   margin-bottom: 4rem;
+  font-family: "pistera";
 }
 @media (width < 600px) {
   .img-header .img-pilotos {
@@ -567,6 +568,12 @@ footer .iconos-redes svg:hover {
   .bio .aside .img-escuderia {
     height: 12rem;
   }
+}
+.bio .aside .aside-title {
+  font-size: 2rem;
+  color: #ff0000;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .bio .bio-titulo {
   font-size: 3rem;
