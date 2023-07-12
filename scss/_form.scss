@@ -13,10 +13,16 @@
     background-color: $gris;
     h2{
         @include titulos(3rem,$claro,3rem,600);
+        @include small{
+            @include titulos(1.5rem,$claro,1.5rem,500);
+        }
     }
     .form-label{
         color: $claro;
         font-size: 2rem;
+        @include small{
+            @include titulos(1.5rem,$claro,1.5rem,500);
+        }
     }
     .form-control{
         font-size: 1.5rem;
