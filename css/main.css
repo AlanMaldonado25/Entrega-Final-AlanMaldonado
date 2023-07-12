@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap");
+@import 'animate.css';
 @font-face {
   font-family: "pistera";
   src: url(../css/fonts/Formula1-Regular.otf);
@@ -154,9 +155,15 @@ p {
   font-family: "pistera";
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.9098039216);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.5s;
 }
 .navbar .nav-link:hover {
   color: #ff0000;
+  background-size: 100% 1px;
 }
 .navbar .nav-link:focus {
   color: #ff0000;
@@ -539,6 +546,7 @@ footer .iconos-redes svg:hover {
   transition: 0.5s;
   color: rgba(255, 255, 255, 0.9098039216);
   box-shadow: -15px 5px 30px #ff0000, 10px -5px 30px #a90000;
+  transform: translateY(-1rem);
 }
 @media (width < 820px) {
   .bio .bio-enlace .a-mas {
