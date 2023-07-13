@@ -131,7 +131,8 @@
         }
     }
     .bio-subtitulo{
-        @include titulos(1.8rem,$red,2rem,400);
+        @extend .bio-titulo;
+        font-size: 2rem;
         @include medium{
             @include titulos(1.8rem,$red,1rem,400);
         };
