@@ -3,7 +3,7 @@
 
 .card-galery{
     background-color: $oscuro;
-    padding: 3rem;
+    padding: 1.5rem;
     h1{
         @include titulos(4rem,$claro,3rem,700);
     }

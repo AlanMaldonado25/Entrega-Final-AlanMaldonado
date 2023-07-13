@@ -345,7 +345,7 @@ footer .iconos-redes svg:hover {
 }
 .card-galery {
   background-color: #0e0e15;
-  padding: 3rem;
+  padding: 1.5rem;
 }
 .card-galery h1 {
   font-size: 4rem;
@@ -462,7 +462,7 @@ footer .iconos-redes svg:hover {
 }
 @media (width < 600px) {
   .form {
-    width: 30rem;
+    width: 26rem;
   }
 }
 
@@ -615,14 +615,14 @@ footer .iconos-redes svg:hover {
   text-transform: uppercase;
   font-weight: 500;
 }
-.bio .bio-titulo {
+.bio .bio-titulo, .bio .bio-subtitulo {
   font-size: 3rem;
   color: #ff0000;
   text-transform: uppercase;
   font-weight: 700;
 }
 @media (width < 600px) {
-  .bio .bio-titulo {
+  .bio .bio-titulo, .bio .bio-subtitulo {
     font-size: 2rem;
     color: #ff0000;
     text-transform: uppercase;
@@ -630,15 +630,12 @@ footer .iconos-redes svg:hover {
   }
 }
 @media (width < 480px) {
-  .bio .bio-titulo {
+  .bio .bio-titulo, .bio .bio-subtitulo {
     display: none;
   }
 }
 .bio .bio-subtitulo {
-  font-size: 1.8rem;
-  color: #ff0000;
-  text-transform: uppercase;
-  font-weight: 400;
+  font-size: 2rem;
 }
 @media (width < 600px) {
   .bio .bio-subtitulo {
