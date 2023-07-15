@@ -1,7 +1,14 @@
 @import "_vars";
 @import "_mixins";
-
-
+@import "_generales";
+.titulo-index{
+    display: block;
+    margin-top: 7rem;
+    .titulo-pag-index{
+        @extend .titulo-pag;
+        margin-bottom: 0;
+    }
+}
 .prox-premio{
     padding: 3rem;
     h2{
@@ -14,9 +21,7 @@
     }
     .img-u-premio{
         width: 75%;
-        @include medium{
-            width: 30rem;
-        }
+        
     }
     .tabla{
         margin: 3rem 0;
@@ -35,12 +40,12 @@
                 }
             }
             @include small{
-                width: 30rem;
+                width: auto;
                 font-size: 1.6rem;
             }
         }
         @include small{
-            width: 100%;
+            width: auto;
         }
     }
 }
