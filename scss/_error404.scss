@@ -1,0 +1,45 @@
+@import "_vars";
+@import "_mixins";
+.error404{
+    width: 100%;
+    .error-texto{
+        position: fixed;
+        top: 0rem;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        color: $oscuro;
+        padding: 5rem;
+        background: rgba( 14, 14, 21, 0.4 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px ); 
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        h1{
+            font-size: 5rem;
+            color: $oscuro;
+            margin: 0;
+        }
+        p{
+            font-size: 4rem;
+            color: $gris;
+        }
+    }
+    
+    .imagen-404{
+        width: 100%;
+    }
+    .volver-inicio{
+        color: $gris;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 1px;
+        transition: background-size 0.5s;
+        &:hover{
+            color: $red;
+            background-size: 100% 1px;
+        }
+    }
+}
