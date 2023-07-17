@@ -73,7 +73,6 @@ p{
     font-family: $fuenteGeneral;
     @include titulos(4rem,$claro,5rem,600);
     margin-bottom: 3rem;
-    margin-top: 8rem;
     @include medium{
         padding: 1rem;
         font-size: 2.8rem;
@@ -81,6 +80,9 @@ p{
     @include small{
         font-size: 2.2rem;
     }
+}
+.titulo-index{
+    margin-top: 8rem;
 }
 .center{
     align-items:center;
