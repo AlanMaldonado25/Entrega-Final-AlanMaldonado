@@ -8,18 +8,63 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 30%);
         z-index: 1000;
+        width: 80rem;
+        height: 50rem;
+        background: rgba( 255, 255, 255, 0.4 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 9.5px );
+        -webkit-backdrop-filter: blur( 9.5px );
+        border-radius: 10px;
+        @include xl{
+            transform: translate(-50%, 5%);
+            width: 60rem;
+            height: 40rem;
+        }
+        @include medium{
+            width: 100%;
+            top: 20rem;
+            background: rgba( 255, 255, 255, 0.4 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 9.5px );
+            -webkit-backdrop-filter: blur( 9.5px );
+            border-radius: 10px;
+            padding: 2rem;
+            top: 0;
+            transform: translate(-50%, 20%);
+        }
     }
     h1{
         font-size: 8rem;
+        color: $oscuro;
+        @include medium{
+            font-size: 5rem;
+        }
+    }
+    p{
+        color: $oscuro;
+        @include small{
+            font-size: 1.6rem;
+        }
     }
     .imagen-404{
         clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
         width: 100%;
         position:fixed;
-        top: 8rem;
+        top: 4rem;
+        left: 0;
         z-index: 0;
+        @include xl{
+            clip-path: none;
+            top: 0;
+        }
+        @include medium{
+            object-fit: cover;
+            height: 100%;
+        }
     }
     .volver-inicio{
         border-bottom: 1px solid $claro;
