@@ -37,11 +37,15 @@
                 border: 1px solid $red;
                 td{
                     border: 1px solid $red;
+                    padding: .5rem;
+                }
+                th{
+                    padding: .5rem;
                 }
             }
             @include small{
                 width: auto;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
             }
         }
         @include small{

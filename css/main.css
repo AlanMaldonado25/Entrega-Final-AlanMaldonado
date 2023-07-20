@@ -396,11 +396,15 @@ p {
 }
 .ult-premio .tabla table tr td {
   border: 1px solid #ff0000;
+  padding: 0.5rem;
+}
+.ult-premio .tabla table tr th {
+  padding: 0.5rem;
 }
 @media (width < 480px) {
   .ult-premio .tabla table {
     width: auto;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 @media (width < 480px) {
