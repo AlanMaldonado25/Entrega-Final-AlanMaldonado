@@ -1,5 +1,6 @@
-# Entrega Final Alan Maldonado
-## _Como comenzo el proyecto_
+# Entrega Final Alan Maldonado 🏎️🚥
+## _Como comenzo el proyecto_![F1Formula1GIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/ebf811de-3368-4f5d-bb2b-ec375ea1229b)
+
 
 Desde el principio quise hacer el proyecto final basado en el negocio de ropa de mi cuñada.
 Al no tener todos los elementos disponibles para llevar a cabo dicho proyecto, se me ocurrio crear una "Wikipedia" de la F1.
