@@ -1,6 +1,6 @@
 # Entrega Final Alan Maldonado 🏎️🚥
-## _Como comenzo el proyecto_![F1Formula1GIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/ebf811de-3368-4f5d-bb2b-ec375ea1229b)
-
+![F1Formula1GIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/ebf811de-3368-4f5d-bb2b-ec375ea1229b)
+## _Como comenzo el proyecto_
 
 Desde el principio quise hacer el proyecto final basado en el negocio de ropa de mi cuñada.
 Al no tener todos los elementos disponibles para llevar a cabo dicho proyecto, se me ocurrio crear una "Wikipedia" de la F1.
@@ -37,6 +37,7 @@ A lo largo de la creacion de la pagina, sufrio algunos cambios pero no tan signi
 - Sass: Para organizar mejor nuestra hoja de estilos , utilizando mixins y extends. Agregamos variables para los colores y estilos de fuentes.
 - Git: Utilizandolo , pude tener una organizacion y un mejor guardado de mi proyecto.
 - GitHub: Gracias a esta hermosa plataforma , podemos guardar y desplegar nuestras webs. Perder o no usar la misma Pc de siempre dejo de ser un problema.
+![WebDesignModernWebGifGIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/6642a64d-a9be-46ea-912f-596be0449ed4)
 
 
 ## _A continuacion los links para conocer el proyecto._
