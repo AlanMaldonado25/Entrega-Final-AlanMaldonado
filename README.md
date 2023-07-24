@@ -37,6 +37,8 @@ A lo largo de la creacion de la pagina, sufrio algunos cambios pero no tan signi
 - Sass: Para organizar mejor nuestra hoja de estilos , utilizando mixins y extends. Agregamos variables para los colores y estilos de fuentes.
 - Git: Utilizandolo , pude tener una organizacion y un mejor guardado de mi proyecto.
 - GitHub: Gracias a esta hermosa plataforma , podemos guardar y desplegar nuestras webs. Perder o no usar la misma Pc de siempre dejo de ser un problema.
+
+
 ![WebDesignModernWebGifGIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/6642a64d-a9be-46ea-912f-596be0449ed4)
 
 
