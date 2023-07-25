@@ -1,4 +1,17 @@
-# Entrega Final Alan Maldonado 🏎️🚥
+# 🏎️Entrega Final Alan Maldonado🏎️
+
+## _Un poco sobre mi_
+
+Soy Alan Maldonado tengo 28 años y desde chico siempre me intereso el mundo de la informatica.
+Comenze a estudiar desarrollo web en el 2021 ,siendo autodidacta en canales de Youtube como SoyDalto y HolaMundo donde adquiri conocimientos basicos de html y css.
+
+Para adentrarme aun mas en el mundo del desarrollo adquiri un curso en Udemy , éste incluia tanto frontend como backend.
+En él adquiri mayores conocimientos en Html , Css y Javascript, asi como los inicios en Sql y Mysql. 
+Por falta de tiempo por el trabajo y la falta de atencion que tienen en esos cursos no lo pude concluir .
+
+Actualmente estoy estudiando la carrera de Desarrollo de Aplicaciones en CoderHouse, con clases en vivo a manos de muy buenos profesores .
+Esta es la entrega final del primer curso de la carrera, Desarrollo Web.
+
 ![F1Formula1GIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/ebf811de-3368-4f5d-bb2b-ec375ea1229b)
 ## _Como comenzo el proyecto_
 
@@ -8,8 +21,11 @@ Siempre pensando en aprovechar las cantidades de paginas que se podrian hacer de
 
 Al tener conocimientos previos en HTML y CSS , fue "sencillo" ir adelantando trabajo y asi poder llegar a la Web que es hoy , contando con 58 paginas con contenido.
 ## _Primeros pasos_
-Comenzamos creando los wireframes para conocer como se vería la pagina en Desktop.
-Seleccione la pagina Whimsical para crearlos:
+Dentro de las primeras clases nos explicaron el camino correcto para poder crear una web , asi comenzamos a crear los wireframes.
+Entre todas las opciones que teniamos para poder crear los wireframes , yo seleccione Whimsical.
+Me parecio la mas intuitiva para poder generarlos.
+
+Comenzamos creando los wireframes de vista en Desktop:
 - Wireframe Home: https://whimsical.com/desktop-inicio-39FCujSAdpRXUUGaoRBfLB
 - Wireframe Pilotos: https://whimsical.com/desktop-pilotos-SZ4BdBx7sMUWEZsKM38nFJ
 - Wireframe Escuderias: https://whimsical.com/desktop-escuderias-DdHhvxCKD342unQffiSsRc
@@ -39,10 +55,9 @@ A lo largo de la creacion de la pagina, sufrio algunos cambios pero no tan signi
 - GitHub: Gracias a esta hermosa plataforma , podemos guardar y desplegar nuestras webs. Perder o no usar la misma Pc de siempre dejo de ser un problema.
 
 
-![WebDesignModernWebGifGIF](https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado/assets/113191869/6642a64d-a9be-46ea-912f-596be0449ed4)
-
-
 ## _A continuacion los links para conocer el proyecto._
 - Link del deployment por Netlify: https://wiki-formula1.netlify.app/index.html
 - Link del repositorio de GitHub: https://github.com/AlanMaldonado25/Entrega-Final-AlanMaldonado.git
 - Link Del deployment de GitHub Pages: https://alanmaldonado25.github.io/Entrega-Final-AlanMaldonado/
+
+## _Desde ya muchas gracias por ver mi Repositorio y mi proyecto_
