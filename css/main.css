@@ -418,7 +418,7 @@ p {
   height: 45.5rem;
   padding-top: 1.5rem;
 }
-@media (width < 600px) {
+@media (width < 820px) {
   .video-resumen iframe {
     width: 45rem;
     height: 20.5rem;
@@ -436,6 +436,17 @@ p {
 .figure-caption {
   font-size: 2rem;
   color: rgba(255, 255, 255, 0.9098039216);
+}
+.figure-caption a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.5s;
+  padding-bottom: 0.5rem;
+}
+.figure-caption a:hover {
+  background-size: 100% 1px;
 }
 
 .streaming {

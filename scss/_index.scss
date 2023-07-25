@@ -58,7 +58,7 @@
     width:80rem; 
     height:45.5rem;
     padding-top: 1.5rem;
-    @include medium{
+    @include large{
         width:45rem; 
         height:20.5rem;
         padding-top: 1rem;
@@ -73,6 +73,17 @@
 .figure-caption{
     font-size: 2rem;
     color: $claro;
+    a{
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 1px;
+        transition: background-size 0.5s;
+        padding-bottom: .5rem;
+        &:hover{
+            background-size: 100% 1px;
+        }
+    }
 }
 
 .streaming{
